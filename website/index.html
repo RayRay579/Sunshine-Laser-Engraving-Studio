@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunshine Laser Engraving Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <div class="w-10 h-10 bg-gradient-to-br from-amber-400 to-orange-500 rounded-lg flex items-center justify-center">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                            </svg>
+                        </div>
+                        <span class="ml-3 text-xl font-bold text-gray-900">Sunshine Laser Engraving</span>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-gray-700 hover:text-amber-600 transition-colors duration-300 font-medium">Home</a>
+                    <a href="#services" class="text-gray-700 hover:text-amber-600 transition-colors duration-300 font-medium">Services</a>
+                    <a href="#gallery" class="text-gray-700 hover:text-amber-600 transition-colors duration-300 font-medium">Gallery</a>
+                    <a href="#about" class="text-gray-700 hover:text-amber-600 transition-colors duration-300 font-medium">About</a>
+                    <a href="#contact" class="bg-gradient-to-r from-amber-500 to-orange-500 text-white px-4 py-2 rounded-lg hover:from-amber-600 hover:to-orange-600 transition-all duration-300 font-medium">Contact</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button class="text-gray-700 hover:text-amber-600">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+                        Precision Laser Engraving 
+                        <span class="block text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-orange-500">That Shines Bright</span>
+                    </h1>
+                    <p class="text-xl text-gray-600 leading-relaxed">
+                        Transform ordinary objects into extraordinary keepsakes with our state-of-the-art laser engraving technology. 
+                        Perfect for gifts, business branding, and personal treasures.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="#services" class="bg-gradient-to-r from-amber-500 to-orange-500 text-white px-8 py-4 rounded-lg hover:from-amber-600 hover:to-orange-600 transition-all duration-300 font-semibold text-lg text-center">
+                            Explore Services
+                        </a>
+                        <a href="#contact" class="border-2 border-amber-500 text-amber-700 px-8 py-4 rounded-lg hover:bg-amber-50 transition-all duration-300 font-semibold text-lg text-center">
+                            Get a Quote
+                        </a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="relative z-10">
+                        <img 
+                            src="https://placehold.co/600x400/FFD700/333333?text=Laser+Engraving" 
+                            alt="Laser Engraving Machine" 
+                            class="rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
+                        />
+                    </div>
+                    <div class="absolute -top-6 -right-6 w-32 h-32 bg-amber-300 rounded-full opacity-60 animate-pulse"></div>
+                    <div class="absolute -bottom-6 -left-6 w-24 h-24 bg-orange-300 rounded-full opacity-60 animate-pulse delay-1000"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    From personalized gifts to professional business branding, we offer a wide range of laser engraving services with unmatched precision and quality.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-gradient-to-br from-amber-400 to-orange-500 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Personalized Gifts</h3>
+                    <p class="text-gray-600 leading-relaxed">Create unforgettable keepsakes with custom engravings on wood, glass, metal, and more. Perfect for birthdays, anniversaries, and special occasions.</p>
+                </div>
+                
+                <div class="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-gradient-to-br from-amber-400 to-orange-500 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2-2v2m8 0H8m8 0V6a2 2 0 012 2v6a2 2 0 01-2 2H6a2 2 0 01-2-2V8a2 2 0 012-2" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Business Branding</h3>
+                    <p class="text-gray-600 leading-relaxed">Elevate your brand with professional laser engraved signage, awards, promotional items, and corporate gifts that make a lasting impression.</p>
+                </div>
+                
+                <div class="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-gradient-to-br from-amber-400 to-orange-500 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Custom Designs</h3>
+                    <p class="text-gray-600 leading-relaxed">Bring your unique vision to life with our custom design services. Our team will work with you to create something truly one-of-a-kind.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Materials Section -->
+    <section class="py-20 bg-gradient-to-br from-amber-50 to-orange-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Materials We Work With</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Our advanced laser technology can engrave on a wide variety of materials with precision and detail.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="group cursor-pointer">
+                    <div class="h-32 rounded-xl bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center transform group-hover:scale-105 transition-all duration-300 shadow-lg">
+                        <span class="text-white text-lg font-semibold">Wood</span>
+                    </div>
+                </div>
+                <div class="group cursor-pointer">
+                    <div class="h-32 rounded-xl bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center transform group-hover:scale-105 transition-all duration-300 shadow-lg">
+                        <span class="text-white text-lg font-semibold">Glass</span>
+                    </div>
+                </div>
+                <div class="group cursor-pointer">
+                    <div class="h-32 rounded-xl bg-gradient-to-br from-gray-400 to-gray-600 flex items-center justify-center transform group-hover:scale-105 transition-all duration-300 shadow-lg">
+                        <span class="text-white text-lg font-semibold">Metal</span>
+                    </div>
+                </div>
+                <div class="group cursor-pointer">
+                    <div class="h-32 rounded-xl bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center transform group-hover:scale-105 transition-all duration-300 shadow-lg">
+                        <span class="text-white text-lg font-semibold">Acrylic</span>
+                    </div>
+                </div>
+                <div class="group cursor-pointer">
+                    <div class="h-32 rounded-xl bg-gradient-to-br from-yellow-600 to-yellow-800 flex items-center justify-center transform group-hover:scale-105 transition-all duration-300 shadow-lg">
+                        <span class="text-white text-lg font-semibold">Leather</span>
+                    </div>
+                </div>
+                <div class="group cursor-pointer">
+                    <div class="h-32 rounded-xl bg-gradient-to-br from-stone-400 to-stone-600 flex items-center justify-center transform group-hover:scale-105 transition-all duration-300 shadow-lg">
+                        <span class="text-white text-lg font-semibold">Stone</span>
+                    </div>
+                </div>
+                <div class="group cursor-pointer">
+                    <div class="h-32 rounded-xl bg-gradient-to-br from-pink-400 to-pink-600 flex items-center justify-center transform group-hover:scale-105 transition-all duration-300 shadow-lg">
+                        <span class="text-white text-lg font-semibold">Plastic</span>
+                    </div>
+                </div>
+                <div class="group cursor-pointer">
+                    <div class="h-32 rounded-xl bg-gradient-to-br from-red-400 to-red-600 flex items-center justify-center transform group-hover:scale-105 transition-all duration-300 shadow-lg">
+                        <span class="text-white text-lg font-semibold">Ceramic</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Work Gallery</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    See the quality and precision of our laser engraving work across various materials and applications.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div class="relative overflow-hidden">
+                        <img 
+                            src="https://placehold.co/400x300/FFD700/333333?text=Wood+Sign" 
+                            alt="Custom Wooden Sign" 
+                            class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                        />
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900">Custom Wooden Sign</h3>
+                    </div>
+                </div>
+                
+                <div class="group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div class="relative overflow-hidden">
+                        <img 
+                            src="https://placehold.co/400x300/87CEEB/333333?text=Glass+Engraving" 
+                            alt="Personalized Glassware" 
+                            class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                        />
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900">Personalized Glassware</h3>
+                    </div>
+                </div>
+                
+                <div class="group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div class="relative overflow-hidden">
+                        <img 
+                            src="https://placehold.co/400x300/C0C0C0/333333?text=Metal+Plaque" 
+                            alt="Corporate Metal Plaque" 
+                            class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                        />
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900">Corporate Metal Plaque</h3>
+                    </div>
+                </div>
+                
+                <div class="group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div class="relative overflow-hidden">
+                        <img 
+                            src="https://placehold.co/400x300/FF69B4/333333?text=Acrylic+Award" 
+                            alt="Acrylic Award Trophy" 
+                            class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                        />
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900">Acrylic Award Trophy</h3>
+                    </div>
+                </div>
+                
+                <div class="group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div class="relative overflow-hidden">
+                        <img 
+                            src="https://placehold.co/400x300/8B4513/FFFFFF?text=Leather+Wallet" 
+                            alt="Engraved Leather Goods" 
+                            class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                        />
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900">Engraved Leather Goods</h3>
+                    </div>
+                </div>
+                
+                <div class="group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                    <div class="relative overflow-hidden">
+                        <img 
+                            src="https://placehold.co/400x300/696969/FFFFFF?text=Stone+Coaster" 
+                            alt="Stone Coasters Set" 
+                            class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                        />
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300"></div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900">Stone Coasters Set</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gradient-to-br from-orange-50 to-amber-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">About Sunshine Laser Engraving</h2>
+                    <p class="text-lg text-gray-600 mb-6 leading-relaxed">
+                        Founded in 2015, Sunshine Laser Engraving Studio has been bringing precision and artistry to laser engraving for nearly a decade. 
+                        Our passion for creating beautiful, personalized items drives everything we do.
+                    </p>
+                    <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+                        With state-of-the-art laser technology and a team of skilled artisans, we transform ordinary objects into extraordinary keepsakes. 
+                        Whether you're looking for a personalized gift, business branding, or custom design work, we're here to bring your vision to life.
+                    </p>
+                    <div class="grid grid-cols-3 gap-6">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-amber-600">5000+</div>
+                            <div class="text-gray-600">Projects Completed</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-amber-600">99%</div>
+                            <div class="text-gray-600">Customer Satisfaction</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-amber-600">50+</div>
+                            <div class="text-gray-600">Materials Available</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img 
+                        src="https://placehold.co/600x400/F4A460/333333?text=Our+Studio" 
+                        alt="Our Studio" 
+                        class="rounded-2xl shadow-2xl"
+                    />
+                    <div class="absolute -bottom-6 -left-6 w-20 h-20 bg-amber-300 rounded-full flex items-center justify-center">
+                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">What Our Customers Say</h2>
+                <p class="text-xl text-gray-600">Hear from our satisfied customers about their experience with Sunshine Laser Engraving.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-2xl shadow-lg">
+                    <div class="flex mb-4">
+                        <svg class="w-5 h-5 text-amber-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-5 h-5 text-amber-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-5 h-5 text-amber-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-5 h-5 text-amber-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.5
